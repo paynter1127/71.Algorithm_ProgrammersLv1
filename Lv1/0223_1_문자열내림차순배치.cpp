@@ -2,11 +2,67 @@
 //
 
 #include <iostream>
+#include <string>
+#include <vector>
 
-int main()
+using namespace std;
+
+string solution_1(string s) {
+	string answer = "";
+
+	// z:122 / a:97 / A:65 / Z:90
+	int iter = 122;
+
+	//푸시백으로 다 처리 해봅시다.
+	while (true)
+	{
+		for (int i = 0; i < s.size(); i++)
+		{
+			//소문자 먼저 돌리기
+			if (s[i] == iter)
+			{
+				answer.push_back(iter);
+			}
+		}
+		iter--;
+		if (iter == 96) break;
+	}
+	
+	//대문자 처리 합시다.
+	iter = 90;
+	while (true)
+	{
+		for (int i = 0; i < s.size(); i++)
+		{
+			//소문자 먼저 돌리기
+			if (s[i] == iter)
+			{
+				answer.push_back(iter);
+			}
+		}
+		iter--;
+		if (iter == 64) break;
+	}
+
+
+
+	return answer;
+}
+
+int main_1()
 {
     std::cout << "Hello World!\n";
 
+	//문자열 s에 나타나는 문자를 큰 것 부터 작은 순으로 정렬해 새로운 문자열을 리컨하는 함수
+	// s는 영문 대소문자, 대문자는 소문자보다 작다.
+	
+
+	cout << solution_1("ABCDEFGabcdefghijklmnopqrstuvwxyz");
+	//리턴은 : gfedcbZ 이 되도록..
+	//대문자는 Z 가 가장 작은 숫자로
+	//소문자는 a 가 가장 작은 숫자로
+
+	return 777;
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

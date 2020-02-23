@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="문자열내림차순으로배치하기.cpp">
+    <ClCompile Include="0223_1_문자열내림차순배치.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0223_2_p와y의개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
