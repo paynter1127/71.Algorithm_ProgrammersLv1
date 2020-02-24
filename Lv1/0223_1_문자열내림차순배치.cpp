@@ -7,7 +7,7 @@
 
 using namespace std;
 
-string solution_1(string s) {
+string solution_02231(string s) {
 	string answer = "";
 
 	// z:122 / a:97 / A:65 / Z:90
@@ -49,7 +49,7 @@ string solution_1(string s) {
 	return answer;
 }
 
-int main_1()
+int main_02231()
 {
     std::cout << "Hello World!\n";
 
@@ -57,7 +57,7 @@ int main_1()
 	// s는 영문 대소문자, 대문자는 소문자보다 작다.
 	
 
-	cout << solution_1("ABCDEFGabcdefghijklmnopqrstuvwxyz");
+	cout << solution_02231("ABCDEFGabcdefghijklmnopqrstuvwxyz");
 	//리턴은 : gfedcbZ 이 되도록..
 	//대문자는 Z 가 가장 작은 숫자로
 	//소문자는 a 가 가장 작은 숫자로

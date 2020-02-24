@@ -7,7 +7,7 @@ using namespace std;
 	대소문자 구별 없다.
 */
 
-bool solution_2(string s)
+bool solution_02232(string s)
 {
 	bool answer = true;
 	
@@ -30,11 +30,11 @@ bool solution_2(string s)
 	return answer;
 }
 
-int _main()
+int main_02232()
 {
 	std::cout << "Hello World!\n";
 
-	cout << solution_2("pPoooyY") << true;
+	cout << solution_02232("pPoooyY") << true;
 
 	return 777;
 }

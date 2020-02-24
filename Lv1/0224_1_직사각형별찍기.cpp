@@ -7,7 +7,7 @@ using namespace std;
 */
 
 
-int main()
+int main_02241()
 {
 	std::cout << "Hello World!\n";
 

@@ -154,6 +154,7 @@
     <ClCompile Include="0223_1_문자열내림차순배치.cpp" />
     <ClCompile Include="0223_2_p와y의개수.cpp" />
     <ClCompile Include="0224_1_직사각형별찍기.cpp" />
+    <ClCompile Include="0224_2_x간격n개숫자.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
