@@ -158,6 +158,8 @@
     <ClCompile Include="0225_2_평균.cpp" />
     <ClCompile Include="0225_1_행렬의덧셈.cpp" />
     <ClCompile Include="0225_3_작은수제거.cpp" />
+    <ClCompile Include="0226_1_짝수홀수.cpp" />
+    <ClCompile Include="0226_2_정수내림차순배치.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
