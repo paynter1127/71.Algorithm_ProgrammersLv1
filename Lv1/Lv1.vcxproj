@@ -161,7 +161,10 @@
     <ClCompile Include="0226_1_짝수홀수.cpp" />
     <ClCompile Include="0226_2_정수내림차순배치.cpp" />
     <ClCompile Include="0227_1_자릿수더하기.cpp" />
-    <ClCompile Include="0227_1_정수제곱근.cpp" />
+    <ClCompile Include="0227_2_정수제곱근.cpp" />
+    <ClCompile Include="0227_3_자연수뒤집어배열.cpp" />
+    <ClCompile Include="0227_4_핸드폰번호가리기.cpp" />
+    <ClCompile Include="0227_5_시저암호.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
