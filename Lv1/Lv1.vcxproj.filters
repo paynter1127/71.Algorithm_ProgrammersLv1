@@ -42,5 +42,11 @@
     <ClCompile Include="0226_2_정수내림차순배치.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0227_1_정수제곱근.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0227_1_자릿수더하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

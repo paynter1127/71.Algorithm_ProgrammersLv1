@@ -26,7 +26,6 @@ long long solution_02262(long long n) {
 
 int main_02262()
 {
-	cout << solution(123321);
 	
 
 	return 777;
