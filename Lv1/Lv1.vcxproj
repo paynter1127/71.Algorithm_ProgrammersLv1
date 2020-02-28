@@ -165,6 +165,10 @@
     <ClCompile Include="0227_3_자연수뒤집어배열.cpp" />
     <ClCompile Include="0227_4_핸드폰번호가리기.cpp" />
     <ClCompile Include="0227_5_시저암호.cpp" />
+    <ClCompile Include="0228_1_하샤드수.cpp" />
+    <ClCompile Include="0228_2_콜라츠추측.cpp" />
+    <ClCompile Include="0228_3_모의고사.cpp" />
+    <ClCompile Include="무지의먹방.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

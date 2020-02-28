@@ -57,5 +57,17 @@
     <ClCompile Include="0227_5_시저암호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="무지의먹방.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0228_1_하샤드수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0228_2_콜라츠추측.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0228_3_모의고사.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
