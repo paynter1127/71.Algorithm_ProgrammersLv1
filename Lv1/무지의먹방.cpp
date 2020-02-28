@@ -1,5 +1,6 @@
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -50,4 +51,5 @@ int solution_¹«Áö(vector<long> food_times, long long k) {
 
 	return answer;
 }
+
 

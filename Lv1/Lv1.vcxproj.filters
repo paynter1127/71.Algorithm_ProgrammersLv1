@@ -69,5 +69,8 @@
     <ClCompile Include="0228_3_모의고사.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0228_4_완주하지못한선수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
