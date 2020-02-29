@@ -179,12 +179,11 @@
     <ClCompile Include="01.체육복.cpp" />
     <ClCompile Include="0229_6_비밀지도.cpp" />
     <ClCompile Include="0229_5_예산.cpp" />
+    <ClCompile Include="흠.0229_7_실패율.cpp" />
     <ClCompile Include="흠.무지의먹방.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="03.소수찾기.cpp" />
-    <None Include="05.비밀지도.cpp" />
-    <None Include="06.실패율.cpp" />
     <None Include="07.다트게임.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

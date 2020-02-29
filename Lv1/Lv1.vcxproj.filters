@@ -102,15 +102,12 @@
     <ClCompile Include="0229_5_예산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="흠.0229_7_실패율.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="03.소수찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="05.비밀지도.cpp">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="06.실패율.cpp">
       <Filter>소스 파일</Filter>
     </None>
     <None Include="07.다트게임.cpp">
