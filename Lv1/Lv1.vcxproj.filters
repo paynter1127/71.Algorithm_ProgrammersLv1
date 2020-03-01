@@ -78,9 +78,6 @@
     <ClCompile Include="0229_1_k번째수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="흠.무지의먹방.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="0229_2_나누어떨어지는숫자배열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -90,12 +87,6 @@
     <ClCompile Include="0229_4_최대공약수와최소공배수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="01.체육복.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="02.문자열내맘대로정렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="0229_6_비밀지도.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -103,6 +94,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="흠.0229_7_실패율.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="흠.0301_1_체육복.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0301_2_문자열내마음대로정렬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

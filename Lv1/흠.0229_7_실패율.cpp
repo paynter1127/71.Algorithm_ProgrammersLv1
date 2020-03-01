@@ -22,7 +22,7 @@ using namespace std;
 */
 
 
-vector<int> solution(int N, vector<int> stages) {
+vector<int> solution_02297(int N, vector<int> stages) {
 	vector<int> answer;
 
 	//사람 수
@@ -79,28 +79,28 @@ vector<int> solution(int N, vector<int> stages) {
 	}
 	
 	
-	/*
-	for (int i = N; i > 0; i--)
+	//-실패율이 같으면 작은 번호 스테이지가 먼저 오게
+	multimap<float, int>::reverse_iterator rIter = failRate.rbegin();
+	multimap<float, int>::reverse_iterator rIterFront = failRate.rbegin();
+	++rIterFront;
+	for (rIter; rIter != failRate.rend(); )
 	{
-		for (int j = 0; j < N; j++)
+		if (rIter->first == rIterFront->first) //실패율이 같으면
 		{
-			if (failRate.find(j)->second == i)
-			{
-				answer.push_back(failRate.find(j)->second);
-			}
-		}
-	}
-	*/
 
+		}
+		answer.push_back(rIter->second);
+	}
 
 	return answer;
 }
 
-int main()
+int main_02297()
 {
 	printf("hello");
 
-	solution(5, { 2, 1, 2, 6, 2, 4, 3, 3 });
+	solution_02297(5, { 2, 1, 2, 6, 2, 4, 3, 3 });
+	solution_02297(5, { 2, 1, 2, 6, 2, 4, 3, 3 });
 
 	cout << endl << sizeof(int) << endl;
 	cout << sizeof(long) << endl;

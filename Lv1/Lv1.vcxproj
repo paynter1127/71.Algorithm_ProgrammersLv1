@@ -175,12 +175,11 @@
     <ClCompile Include="0229_2_나누어떨어지는숫자배열.cpp" />
     <ClCompile Include="0229_3_이상한문자만들기.cpp" />
     <ClCompile Include="0229_4_최대공약수와최소공배수.cpp" />
-    <ClCompile Include="02.문자열내맘대로정렬.cpp" />
-    <ClCompile Include="01.체육복.cpp" />
     <ClCompile Include="0229_6_비밀지도.cpp" />
     <ClCompile Include="0229_5_예산.cpp" />
+    <ClCompile Include="0301_2_문자열내마음대로정렬.cpp" />
+    <ClCompile Include="흠.0301_1_체육복.cpp" />
     <ClCompile Include="흠.0229_7_실패율.cpp" />
-    <ClCompile Include="흠.무지의먹방.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="03.소수찾기.cpp" />
