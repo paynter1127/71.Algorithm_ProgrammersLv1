@@ -178,7 +178,7 @@
     <ClCompile Include="0229_6_비밀지도.cpp" />
     <ClCompile Include="0229_5_예산.cpp" />
     <ClCompile Include="0301_2_문자열내마음대로정렬.cpp" />
-    <ClCompile Include="흠.0301_1_체육복.cpp" />
+    <ClCompile Include="0303_1_체육복.cpp" />
     <ClCompile Include="흠.0229_7_실패율.cpp" />
   </ItemGroup>
   <ItemGroup>
