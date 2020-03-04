@@ -102,11 +102,11 @@
     <ClCompile Include="0303_1_체육복.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0304_1_소수찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="03.소수찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </None>
     <None Include="07.다트게임.cpp">
       <Filter>소스 파일</Filter>
     </None>
