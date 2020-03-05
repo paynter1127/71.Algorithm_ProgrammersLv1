@@ -2,6 +2,7 @@
 #include <vector>
 #include <set>
 #include <map>
+#include <unordered_map>
 #include <algorithm>
 #include <iostream>
 
@@ -13,15 +14,29 @@ using namespace std;
 	- 멈춰있는 스테이지 번호 배열 stages (사이즈가 사람 도전한 사람 수)
 	실패율 높은 스테이지부터 내림차순으로 스테이지 번호가 담긴 배열을 리턴하라. (1 부터 내림차순)
 	- 스테이지 개수 N 은 1~500 자연수
-	- stages 길이 1~200,200 이하
+	- stages 길이 1~200,200 이하(참여 유저 수)
 	- stages 에서는 1~ N+1이하 자연수가 담겨 있다.
 		. 각 자연수는 사용자가 도전중 스테이지
 		. N+1은 마지막 스테이지(N스테이지) 까지 클리어한 사용자
 	- 실패율이 같으면 작은 번호 스테이지가 먼저 오게
 	- 스테이지 도달 유저가 없으면 실패율은 0
+
+	=> 핵심1 : 실패율 순으로 정렬(실패율은 내림차순)
+	=> 핵심2 : 실패율이 같으면 스테이지 순으로 정렬(스테이지는 오름 차순) 
+		홀리 쉣....
+		이거 행렬로 되나? 흠...
 */
 
 
+vector<int> solution(int N, vector<int> stages) {
+	vector<int> answer;
+	
+	
+
+	return answer;
+}
+
+//예전 풀던 것 세이브
 vector<int> solution_02297(int N, vector<int> stages) {
 	vector<int> answer;
 
@@ -95,15 +110,41 @@ vector<int> solution_02297(int N, vector<int> stages) {
 	return answer;
 }
 
-int main_02297()
+int main()
 {
 	printf("hello");
 
-	solution_02297(5, { 2, 1, 2, 6, 2, 4, 3, 3 });
-	solution_02297(5, { 2, 1, 2, 6, 2, 4, 3, 3 });
+	{
+		//solution_02297(5, { 2, 1, 2, 6, 2, 4, 3, 3 });
+		//solution_02297(5, { 2, 1, 2, 6, 2, 4, 3, 3 });
 
-	cout << endl << sizeof(int) << endl;
-	cout << sizeof(long) << endl;
+		cout << endl << sizeof(int) << endl;
+		cout << sizeof(long) << endl;
+	}
+
+	printf("멀티맵 정렬 테스트 \n");
+	
+	
+	unordered_map<int, float> map;
+	map.insert(unordered_map<int, float>::value_type(1, 1.0f / 8.0f));
+	map.insert(unordered_map<int, float>::value_type(3, 2.0f / 4.0f));
+	map.insert(unordered_map<int, float>::value_type(2, 3.0f / 7.0f));
+	map.insert(unordered_map<int, float>::value_type(5, 0.0f / 1.0f));
+	map.insert(unordered_map<int, float>::value_type(4, 1.0f / 2.0f));
+
+	for (unordered_map<int, float>::iterator iter = map.begin(); iter != map.end(); ++iter)
+	{
+		cout << iter->first << " / " << iter->second << endl;
+	}
+
+	//결론 : 맵 과 같은 키와 벨류를 가지는 STL 은 sort함수로 정렬 할 수 없다. 
+	// 직접 정렬 처리 해야 한다. 
+
+	//sort(map.begin()->first, map.end()->first);
+	//for (unordered_map<int, float>::iterator iter = map.begin(); iter != map.end(); ++iter)
+	//{
+	//	cout << iter->first << " / " << iter->second << endl;
+	//}
 
 	return 787;
 }
