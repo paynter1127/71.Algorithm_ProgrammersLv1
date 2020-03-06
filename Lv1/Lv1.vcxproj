@@ -180,10 +180,8 @@
     <ClCompile Include="0301_2_문자열내마음대로정렬.cpp" />
     <ClCompile Include="0303_1_체육복.cpp" />
     <ClCompile Include="0304_1_소수찾기.cpp" />
+    <ClCompile Include="03061_다트게임.cpp" />
     <ClCompile Include="흠.0229_7_실패율.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="07.다트게임.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

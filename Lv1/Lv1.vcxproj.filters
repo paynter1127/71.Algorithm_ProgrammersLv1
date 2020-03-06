@@ -105,10 +105,8 @@
     <ClCompile Include="0304_1_소수찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="07.다트게임.cpp">
+    <ClCompile Include="03061_다트게임.cpp">
       <Filter>소스 파일</Filter>
-    </None>
+    </ClCompile>
   </ItemGroup>
 </Project>

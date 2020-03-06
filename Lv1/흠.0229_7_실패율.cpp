@@ -28,14 +28,6 @@ using namespace std;
 */
 
 
-vector<int> solution(int N, vector<int> stages) {
-	vector<int> answer;
-	
-	
-
-	return answer;
-}
-
 //예전 풀던 것 세이브
 vector<int> solution_02297(int N, vector<int> stages) {
 	vector<int> answer;
@@ -110,7 +102,7 @@ vector<int> solution_02297(int N, vector<int> stages) {
 	return answer;
 }
 
-int main()
+int main_02297()
 {
 	printf("hello");
 
