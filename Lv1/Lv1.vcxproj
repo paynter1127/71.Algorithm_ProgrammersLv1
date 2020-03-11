@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01_공부용테스트파일.cpp" />
     <ClCompile Include="0223_1_문자열내림차순배치.cpp" />
     <ClCompile Include="0223_2_p와y의개수.cpp" />
     <ClCompile Include="0224_1_직사각형별찍기.cpp" />
